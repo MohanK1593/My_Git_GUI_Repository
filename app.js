@@ -7,8 +7,9 @@ const server = http.createServer((req, res) => {
 
     res.end(`
         <h1>Hello from My Node.js Application!</h1>
-        <p>This application is stored in GitHub.</p>
-        <p>Later, we can create a Docker image from this repository.</p>
+        <h2>Welcome to my New_Branch!</h2>
+        <p>This code was developed inside a Linux VM.</p>
+        <p>Branch : New_Branch</p>
     `);
 });
 
